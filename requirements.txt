@@ -1,0 +1,7 @@
+rich
+os
+openai
+datasets
+json
+python-dotenv
+huggingface_hub
