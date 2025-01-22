@@ -1,4 +1,4 @@
-# README de la Aplicación
+# Generacion de datos sinteticos a partir de Facebook/llama-3.1-405b
 
 ## TODO
 - Actualmente se duplican las preguntas ya que si el contenido se encuentra por debajo del umbral de hapiness se incluirá tanto la respuesta A como la respuesta B. Hay que incluir en este caso solamente la que mejor resultado obtenga.
