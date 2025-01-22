@@ -7,14 +7,13 @@ from dotenv import load_dotenv
 from huggingface_hub import login
 
 topic = "declaración de la renta españa"
-n_subtemas = 2
-n_preguntas = 2
+n_subtemas = 5
+n_preguntas = 20
 
 # Cargar las variables de entorno desde el archivo .env
 load_dotenv()
 
 # Obtener las claves API desde las variables de entorno
-api_key = os.getenv('NVDIA_API')
 huggingface_token = os.getenv('HUGGINGFACE_TOKEN')
 
 # Iniciar sesión en Hugging Face
@@ -22,7 +21,7 @@ login(huggingface_token)
 
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key=api_key,
+    api_key="CAMBIAR-POR-API-KEY",
 )
 
 # 1. Generación de subtemas

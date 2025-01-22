@@ -1,5 +1,8 @@
 # README de la Aplicación
 
+##TODO
+- Actualmente se duplican las preguntas ya que si el contenido se encuentra por debajo del umbral de hapiness se incluirá tanto la respuesta A como la respuesta B. Hay que incluir en este caso solamente la que mejor resultado obtenga.
+
 ## Descripción
 
 Esta aplicación está diseñada para generar un Dataset de forma automática dado un tema en concreto, genera el número que marques de subtemas y proporciona tanto preguntas como respuestas de los temas que indiques. El texto es creado usando Facebook/llama-3.1-405b
